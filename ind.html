@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Solar System: Document Object Model:30 Days Of JavaScript</title>
+	<link rel="stylesheet" href="style.css">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">  -->
+	<style>
+		.tiny{
+			display:none
+		}
+		button{
+			border-radius: 20px;
+			background-color: rgb(0, 255, 157);
+			padding: 1rem;
+			cursor: pointer;
+		}
+
+		button:active{
+			background-color: rgb(72, 0, 255);
+			transform: scale(5,5);
+			margin-top: 3rem 3rem;
+		}
+	</style>
+</head>
+
+<body class="w-full h-screen bg-red-400">
+	<!-- <header>
+		<h1>Calculate a weight of an object on a planet</h1>
+
+		<input type="text" id="mass" placeholder="Mass in Kilogram" />
+		<select class="select">
+			<option value='none'>--select planet--</option>
+		</select>
+		<button>Calculate weight</button>
+
+	</header>
+	<main>
+		<div class="flex-container">
+			<div class="flex-item image">
+				<img src='./images/earth.png' class="planet-image" />
+			</div>
+			<div class="flex-item description"></div>
+
+		</div> -->
+   
+		<button class="button go">click me</button>
+		<div class="weight tidy">
+			<p class="acc"></p>
+			<div class="circle">
+			<input type="text" class="circle-input">
+	</div>
+		</div>
+	</main>
+
+
+
+
+
+	<script>
+		let r=alert('love')
+		const weight=document.querySelector(".weight");
+		console.log(weight);
+		const btn = document.querySelector(".button");
+		
+
+		// food.className='love';
+		// food.innerHTML='koro';
+
+		// food.classList.add('spon')
+		weight.classList.contains("tidy")? weight.classList.remove("tidy") : console.log(false)
+		console.log(weight);
+	//  document.body.appendChild(food);
+		
+		// const mymy=()=>{
+		// 	if (food.classList.contain('food')) {
+		// 		food.classList.toggle('food')
+
+		// 	}
+
+		// }
+		
+		// btn.addEventListener('click', mymy)
+	</script>
+</body>
+
+</html>
